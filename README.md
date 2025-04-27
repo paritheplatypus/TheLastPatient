@@ -5,36 +5,11 @@ Navigate through a dark, abandoned asylum using a flashlight, and find the Morgu
 
 ---
 
-## 🚀 Project Setup
-
-Project folder: https://mailmissouri-my.sharepoint.com/:f:/r/personal/ppf2d_umsystem_edu/Documents/TheLastPatient?csf=1&web=1&e=dyXIKv
-
-1. **Unity Version**:  
-   - Unity 2022.3.6f1 (LTS)
-   - 3D Core Project Template (not URP/HDRP)
-
-2. **Required Unity Packages**:
-   - XR Plugin Management
-   - XR Interaction Toolkit
-   - Oculus XR Plugin
-   - TextMeshPro (for UI)
-
-3. **Required External Assets**:
-   - [Abandoned Asylum Environment Asset](#)
-
-4. **XR Settings**:
-   - XR Plugin Management → Oculus Provider (Standalone + Android)
-   - OpenXR Runtime → Set to Oculus
-   - XR Origin (Room-Scale) added for player control
-   - Continuous Move Provider (Action-Based) for joystick movement
-
----
-
 ## 🎮 Gameplay Features
 
 - **Joystick Movement**: Move using the left thumbstick.
 - **Flashlight Mechanic**: Spot Light attached to head (Main Camera).
-- **Victory Condition**: Reach the invisible trigger at the Morgue to win.
+- **Victory Condition**: Reach the invisible trigger at the 'target' spot to win.
 - **Victory UI**: World-space canvas displays "YOU ESCAPED!" on success.
 
 ---
@@ -51,7 +26,7 @@ Project folder: https://mailmissouri-my.sharepoint.com/:f:/r/personal/ppf2d_umsy
    - Spot Angle: ~45–60 degrees.
 
 3. **Victory Trigger**:
-   - Invisible Box Collider (IsTrigger enabled) near the Morgue entrance.
+   - Invisible Box Collider (IsTrigger enabled) near the 'target' spot.
    - WinTrigger script detects player collision and activates Victory UI.
 
 4. **Lighting Settings**:
@@ -68,13 +43,34 @@ Project folder: https://mailmissouri-my.sharepoint.com/:f:/r/personal/ppf2d_umsy
 
 - **In Editor**:  
   - Simulate movement using keyboard W/A/S/D or manual XR Origin dragging.
-- **On Quest 3**:  
-  - Connect via Meta Link.
-  - Enter Play Mode for full VR walking and exploration.
+  
+---
+
+## 🚀 Project Setup
+
+Project folder: https://mailmissouri-my.sharepoint.com/:f:/r/personal/ppf2d_umsystem_edu/Documents/TheLastPatient?csf=1&web=1&e=dyXIKv
+
+1. **Unity Version**:  
+   - Unity 2022.3.6f1 (LTS)
+   - 3D Core Project Template (not URP/HDRP)
+
+2. **Required Unity Packages**:
+   - XR Plugin Management
+   - XR Interaction Toolkit
+   - TextMeshPro (for UI)
+
+3. **Required External Assets**:
+   - [Abandoned Asylum Environment Asset](#)
+
+4. **XR Settings**:
+   - XR Plugin Management → Oculus Provider (Standalone + Android)
+   - OpenXR Runtime → Set to Oculus
+   - XR Origin (Room-Scale) added for player control
+   - Continuous Move Provider (Action-Based) for joystick movement
 
 ---
 
-## 📋 Future Improvements (Optional)
+## 📋 Future Improvements
 
 - Add sound effects (footsteps, ambient asylum noises).
 - Add interactive doors and puzzles.
@@ -82,13 +78,5 @@ Project folder: https://mailmissouri-my.sharepoint.com/:f:/r/personal/ppf2d_umsy
 - Add fade-out transition when escaping.
 - Deploy full APK build to Quest 3 for untethered VR experience.
 
----
-
-## 📄 License
-
-This project uses free and purchased Unity assets.  
-Abide by original asset licenses when distributing builds.
-
----
 
 > **Built with passion for horror exploration and immersive storytelling. 🏚️🔦**
