@@ -7,6 +7,8 @@ Navigate through a dark, abandoned asylum using a flashlight, and find the Morgu
 
 ## 🚀 Project Setup
 
+Project folder: https://mailmissouri-my.sharepoint.com/:f:/r/personal/ppf2d_umsystem_edu/Documents/TheLastPatient?csf=1&web=1&e=dyXIKv
+
 1. **Unity Version**:  
    - Unity 2022.3.6f1 (LTS)
    - 3D Core Project Template (not URP/HDRP)
