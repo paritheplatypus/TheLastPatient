@@ -1,7 +1,9 @@
-# 🕯️ TheLastPatient
+# 🕯️ The Last Patient
 
 A VR escape room experience built in Unity 2022.3.6f1, designed for the Meta Quest 3.  
 Navigate through a dark, abandoned asylum using a flashlight, and find the Morgue to escape!
+
+Check out a [demo](https://youtu.be/jBLWAIIHtVY?si=hppGtL1xnTOobSxu "The Last Patient - Demo").
 
 ---
 
